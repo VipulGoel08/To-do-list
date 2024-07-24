@@ -42,6 +42,7 @@
     border-radius: 30px;
     margin-bottom: 20px;
     background: #c8c4c4;
+
 }
 
 input{
@@ -59,7 +60,7 @@ button{
     outline: none;
     color: white;
     background: linear-gradient(120deg, #75ce9f, #159947);
-    border-radius: 40px;
+    border-radius: 30px;
     cursor: pointer;
     font-size: 14px;
 }
@@ -79,7 +80,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50px;
-    background: url(unchecked.png);
+    background: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 8px;
@@ -92,7 +93,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(checked.png);
+    background-image: url(images/checked.png);
 }
 
 ul li span{
@@ -112,13 +113,12 @@ ul li span:hover{
     background: #bfbbbb;
 }
 
-@media only screen and (max-width: 560px) {
-    .row{
-        width: 83vw;
 
-    }
-
-    .container{
-        width: 10vwvw;
-    }
+@media only screen and (max-width: 410px) {
+   .row{
+    padding-left: 0px;
+}
+   button{
+    margin-right: 10px;
+   }
   }
