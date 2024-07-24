@@ -113,13 +113,8 @@ ul li span:hover{
     background: #bfbbbb;
 }
 
-
 @media only screen and (max-width: 410px) {
-   .row{
-    padding-left: 0px;
-    width: 85%;
-   }
-   button{
-    margin-right: 50px;
+   input{
+    width:100px;
    }
   }
